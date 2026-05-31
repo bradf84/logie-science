@@ -29,7 +29,10 @@ npm run preview
 
 ## Deployment
 
-Hosted on **Vercel** at https://logie-science.breclo.net
+Hosted on **Vercel** at https://logie-science.skunkylabs.com
+
+DNS managed via Cloudflare (zone: `skunkylabs.com`):
+- CNAME `logie-science` → `cname.vercel-dns.com` (DNS only, grey cloud)
 
 ### Commit and publish
 
