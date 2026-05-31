@@ -27,6 +27,34 @@ npm run preview
 - **Facts** — Fun science facts grouped by Space, Animals, Weather, Chemistry, Forces, Human Body
 - **About** — What Logie Science is and a safety reminder
 
+## Deployment
+
+Hosted on **Vercel** at https://logie-science.breclo.net
+
+### Commit and publish
+
+```bash
+# Stage and commit your changes
+git add .
+git commit -m "description of changes"
+
+# Push to GitHub
+git push
+
+# Deploy to production on Vercel
+npx vercel --prod
+```
+
+### First-time setup (already done)
+
+The project is linked to Vercel. If you ever need to re-link:
+
+```bash
+npx vercel link --project logie-science --yes
+```
+
+---
+
 ## Tech Stack
 
 - Vite

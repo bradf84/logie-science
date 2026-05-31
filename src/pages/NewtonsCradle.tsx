@@ -1,5 +1,6 @@
 import { PageLayout } from '../components/PageLayout';
 import { SafetyNote } from '../components/SafetyNote';
+import newtonsCradleGif from '../assets/newtons_cradle_clean_no_overlap.gif';
 
 export function NewtonsCradle() {
   return (
@@ -9,6 +10,12 @@ export function NewtonsCradle() {
         <p style={{ fontSize: '1.15rem', color: 'var(--muted)' }}>
           A desk toy that shows how energy and momentum travel through objects.
         </p>
+
+        <img
+          src={newtonsCradleGif}
+          alt="Animation of a Newton's Cradle showing balls transferring energy"
+          style={{ width: '100%', borderRadius: 'var(--radius-xl)', margin: '2rem 0' }}
+        />
 
         <section style={{ marginTop: '2rem' }}>
           <h2>What is it?</h2>
