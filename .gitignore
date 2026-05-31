@@ -3,3 +3,4 @@ dist
 tsconfig.tsbuildinfo
 
 .vercel
+/.playwright-mcp
