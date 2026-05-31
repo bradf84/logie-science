@@ -1,0 +1,44 @@
+.experiment-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.experiment-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.experiment-card p {
+  color: var(--muted);
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+}
+
+.experiment-meta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-button);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.chip-difficulty {
+  background: var(--lab-teal);
+  color: var(--atom-navy);
+}
+
+.chip-time {
+  background: var(--spark-yellow);
+  color: var(--atom-navy);
+}
+
+.chip-adult {
+  background: var(--reaction-orange);
+  color: white;
+}

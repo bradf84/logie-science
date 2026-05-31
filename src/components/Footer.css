@@ -1,0 +1,12 @@
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  background: var(--atom-navy);
+  color: var(--clean-white);
+  font-size: 0.9rem;
+}
+
+.footer-note {
+  opacity: 0.7;
+  font-size: 0.8rem;
+}

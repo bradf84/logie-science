@@ -1,0 +1,19 @@
+.how-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.how-definition {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.how-example {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.how-link {
+  font-size: 0.85rem;
+  padding: 0.6rem 1.2rem;
+}

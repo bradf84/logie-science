@@ -1,0 +1,52 @@
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.steps-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.step-item {
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--electric-blue);
+  color: white;
+  font-weight: 900;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.safety-reminder {
+  text-align: center;
+  background: #FFF3E0;
+  border-radius: var(--radius-card);
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+}

@@ -1,0 +1,18 @@
+.safety-note {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border-radius: var(--radius-card);
+  background: #FFF3E0;
+  border-left: 4px solid var(--reaction-orange);
+}
+
+.safety-note strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--reaction-orange);
+}
+
+.safety-note p {
+  margin: 0;
+  color: var(--ink);
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Logie Science",
+  "tagline": "Kid-friendly experiments and the science behind them",
+  "concept": "Dark-blue atom logo with colourful, energetic science accents for curious kids around 10 years old.",
+  "palette": {
+    "atom_navy": "#0B1F3A",
+    "deep_blue": "#123C69",
+    "electric_blue": "#2F80ED",
+    "lab_teal": "#21D4B4",
+    "spark_yellow": "#FFD84D",
+    "reaction_orange": "#FF8A3D",
+    "plasma_pink": "#FF4FA3",
+    "clean_white": "#FFFFFF",
+    "paper": "#F7FAFC",
+    "ink": "#172033",
+    "muted": "#64748B"
+  },
+  "fonts": {
+    "headings": "Nunito, Baloo 2, Arial Rounded MT Bold, sans-serif",
+    "body": "Inter, Atkinson Hyperlegible, system-ui, sans-serif"
+  },
+  "tone": [
+    "Bright, curious and energetic",
+    "Smart enough for a 10-year-old, not babyish",
+    "Friendly instructions with clear safety notes",
+    "Explains how experiments work in plain language"
+  ]
+}
