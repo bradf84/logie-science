@@ -58,6 +58,16 @@ npx vercel link --project logie-science --yes
 
 ---
 
+## Mobile Responsiveness
+
+The site is fully responsive across all device sizes:
+
+- **Header**: Hamburger menu toggle at ≤600px with accessible aria attributes
+- **Hero**: Two-column grid collapses to single column at ≤820px
+- **Content grids**: `auto-fill, minmax(280px, 1fr)` stacks cards on narrow viewports
+- **Images/SVGs**: `max-width: 100%` prevents overflow
+- **Animations**: Respects `prefers-reduced-motion`
+
 ## Tech Stack
 
 - Vite
